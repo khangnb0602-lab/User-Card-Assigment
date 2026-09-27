@@ -1,0 +1,33 @@
+.contact-card {
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  text-align: left;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 8px;
+}
+
+.contact-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  color: aqua;
+}
+
+
+.contact-info h4 {
+  margin: 0 0 4px;
+}
+
+.contact-email {
+  font-size: 14px;
+  color: black;
+}
